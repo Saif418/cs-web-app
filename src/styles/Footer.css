@@ -1,0 +1,40 @@
+div.Footer
+{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  
+  color: white;
+
+  background-color: red;
+  width: 100%;
+  min-height: 5vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+div.Ad
+{
+  background-color: green;
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+a.BELink
+{
+  background-color: white;
+  text-decoration: none;
+  margin-left: 2rem;
+
+}
+
+div.footer p
+{
+  justify-content: right;
+}

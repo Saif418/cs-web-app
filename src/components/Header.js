@@ -1,13 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import '../styles/Header.css';
+
 function Header() {
   return (
-    <div>
-      <h1>College Club</h1>
+    <div className="HeaderWrapper">
+      <h1>MSU Club Website</h1>
       <nav>
-        <Link to="/">Home</Link>
-        <Link to="/activities">Activities</Link>
+        <Link className='l1' to="/">Home</Link>
+        <Link className='l2' to="/activities">Activities</Link>
       </nav>
     </div>
   );
